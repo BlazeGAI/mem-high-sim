@@ -84,7 +84,6 @@ if col1.button("Video Streaming"):
     st.session_state.l1_hit_custom = 85
     st.session_state.l2_hit_custom = 10
     st.session_state.l3_hit_custom = 4
-    st.experimental_rerun()
 
 if col2.button("Gaming"):
     st.session_state.data_size_mb = 200
@@ -97,7 +96,6 @@ if col2.button("Gaming"):
     st.session_state.l1_hit_custom = 90
     st.session_state.l2_hit_custom = 5
     st.session_state.l3_hit_custom = 3
-    st.experimental_rerun()
 
 if col3.button("Database Query"):
     st.session_state.data_size_mb = 100
@@ -110,7 +108,6 @@ if col3.button("Database Query"):
     st.session_state.l1_hit_custom = 70
     st.session_state.l2_hit_custom = 20
     st.session_state.l3_hit_custom = 5
-    st.experimental_rerun()
 
 # Sidebar: Memory Levels & Data Access Configuration
 st.sidebar.header("Memory Levels Configuration")
